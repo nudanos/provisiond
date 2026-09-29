@@ -1,4 +1,5 @@
 #!/usr/bin/make -f
+export GO111MODULE := off
 #DH_VERBOSE=1
 export DH_GOPKG := github.com/danos/provisiond
 export DH_GOLANG_INSTALL_EXTRA := testdata/configtest testdata/configtest_yang
@@ -6,7 +7,7 @@ export DH_GOLANG_INSTALL_EXTRA := testdata/configtest testdata/configtest_yang
 GOBUILDDIR := _build
 
 %:
-	dh $@ --buildsystem=golang --with=golang,vci --builddirectory=$(GOBUILDDIR)
+	dh $@ --buildsystem=golang --with golang,vci --builddirectory=$(GOBUILDDIR)
 
 override_dh_auto_build: vet
 	dh_auto_build
