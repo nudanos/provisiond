@@ -1,0 +1,8 @@
+usr/share/gocode/src/github.com/danos/provisiond/cmd/provisiond/main.go
+usr/share/gocode/src/github.com/danos/provisiond/provisiond.go
+usr/share/gocode/src/github.com/danos/provisiond/testdata/configtest/config
+usr/share/gocode/src/github.com/danos/provisiond/testdata/configtest_yang/vyatta-service-first-v1.yang
+usr/share/gocode/src/github.com/danos/provisiond/testdata/configtest_yang/vyatta-service-second-v1.yang
+usr/share/gocode/src/github.com/danos/provisiond/testdata/configtest_yang/vyatta-service-unasssigned-a-v1.yang
+usr/share/gocode/src/github.com/danos/provisiond/testdata/configtest_yang/vyatta-service-unasssigned-b-v1.yang
+usr/share/gocode/src/github.com/danos/provisiond/testdata/configtest_yang/vyatta-service-unasssigned-c-v1.yang
